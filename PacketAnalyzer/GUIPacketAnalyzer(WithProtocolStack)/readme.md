@@ -1,20 +1,42 @@
-<pre dir="auto">
-بسم الله الرحمن الرحیم
-سوال1:
-آقای سید مهدی حسن پور، شما به عنوان یک معلم چرا این برنامه را توسعه دادین؟
-این پروژه به منظور آموزش پروتکل استک شبکه و پروتکل های مختلف اون نوشته شده تا دانشجو ها و دانش آموز های عزیزی
-که قصد دارن درک بهتری داشته باشن این برنامه رو اجرا کنن 
-پشته پروتکل رو به صورت بصری و واقعی مشاهده کنن 
-و بسته ها رد و بدل شده و داده های درون اون ها رو به تفکیک فیلد ها به درستی ببینن .
-لازم به ذکره که تمام 15 پروتکل پیاده سازی شده بر اساس مستندات IETF
-پیاده سازی شده اند.
-سوال2:
-آیا ویدیویی برای نمایش عملکرد این برنامه درست شده است؟
-بله و در همین جا لینک این ویدیو رو قرار میدم که البته هم تو آپارات و هم تو یوتوب  هم ذخیره میکنم
-سوال 3 :
-آیا دات نت فریم ورک نیازه ؟
-دقت کنید که حتما dotnetframwork 4 رو نصب کنید
-</pre>
+In the name of God
+
+# Bavin - Realtime StackedUI Packet Analyzer
+
+Bavin is a packet analyzer like `wireshark` which will breakdown each in/out packets from any network interface in your computer, but it will decipher the packets in a more readable and senseble `TCP/IP` Protocol Stack, so you will be able to read what is happening in each packet and it's headers in the most simplest and efficient way.
+
+## Goal
+One of the main reason behind the development of this app is to everyone can understand and learn better the **TCP/IP** Protocols in action based on `IETF` in the sense of **Stacked Protocol in UI** especially diffrent headers of each famous protocols.
+
+<img width="600px" src="https://github.com/SeyyedMahdiHP/MyOtherProjects/blob/master/PacketAnalyzer/GUIPacketAnalyzer(WithProtocolStack)/pktanz.PNG" alt="Realtime StackedUI Packet Analyzer - Listen Started "/>
+
+## Protocols
+This app supports 15 protocols:
+- Ethernet
+- IP
+- IPV6
+- ARP
+- ICMP
+- UDP
+- TCP
+- HTTP
+- DNS
+- NBNS
+- LLMNR
+- SSDP
+- IGMP
+- IGMPV6
+- DHCP
+
+
+## Requirements
+- Windows
+- Install [dotnetframework4](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
+- Install [Winpcap](https://www.winpcap.org/install/) Library
+
+
+## How to Run
+
+Just open the app and select one interface, then it will automatically listen to the all in/out packets and will show it to you.
 
 Step1:
 <br>
