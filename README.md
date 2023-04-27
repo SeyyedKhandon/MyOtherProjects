@@ -1,6 +1,6 @@
 In the name of God
 
-# Bavin - Realtime StackedUI Packet Analyzer
+# Bavin - Realtime StackedUI Packet Analyzer for Students
 
 Bavin is a packet analyzer like `wireshark` which will breakdown each in/out packets from any network interface in your computer, but it will decipher the packets in a more readable and senseble `TCP/IP` Protocol Stack, so you will be able to read what is happening in each packet and it's headers in the most simplest and efficient way.
 
